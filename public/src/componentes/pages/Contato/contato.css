@@ -1,0 +1,104 @@
+/* Container Principal (Antigo .MVVDiv, Novo .contato-container) */
+.contato-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Centralizando as duas divs */
+    gap: 5%;
+}
+
+/* Itens Individuais (Antigo .MVVdivs, Novo .contato-item) */
+.contato-item {
+    height: 20rem;
+    /* Mantendo a altura, ajuste se necessário */
+    width: 19rem;
+    /* Ajustado para 40% para acomodar 2 itens com gap */
+    background-color: var(--rosa-clarinho);
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza conteúdo (ícone, título, email) */
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contato-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Container da Imagem (Antigo .item-img, Novo .item-img-contato) */
+.item-img-contato {
+    margin: 2.5rem 0;
+}
+
+/* Estilos para as Imagens específicas (ID's Atualizados) */
+#icone-logo-ams {
+    width: auto;
+    height: 50px;
+}
+
+#icone-img-etec {
+    width: auto;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.icone-email {
+    width: auto;
+    height: 100px;
+}
+
+/* Estilos para o Título (Antigo .divTituloMVV, Novo .contato-titulo-wrapper) */
+.contato-titulo-wrapper {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    padding: 5px;
+    background-color: var(--vinho);
+    color: white;
+    justify-content: center;
+    /* Garante que o texto fique centralizado */
+}
+
+/* Estilo para o link/email (pEmailIncentiva e pEmailEtec são <a>) */
+.texto-email {
+    background-color: var(--vinho);
+    color: var(--branco);
+    /* Exemplo: define a cor do link */
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    /* Remove sublinhado se desejar */
+    word-break: break-all;
+    /* Ajuda a quebrar o email em telas menores */
+}
+
+/* --- MEDIA QUERIES (Adaptação para Dispositivos Móveis) --- */
+
+@media (max-width: 767px) {
+
+    /* Container Principal */
+    .contato-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0.5rem;
+        /* Ajustando o gap para mobile */
+    }
+
+    /* Itens Individuais */
+    .contato-item {
+        height: auto;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}

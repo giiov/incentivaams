@@ -1,0 +1,71 @@
+.MVVDiv {
+    margin: 1rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.MVVdivs {
+    height: auto;
+    width: 30%;
+    background-color: var(--rosa-clarinho);
+    padding: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.MVVdivs:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.item-img {
+    margin-bottom: 1rem;
+}
+
+#alvo {
+    width: 75px;
+    height: auto;
+    color: var(--vinho);
+}
+
+#binoculo {
+    width: 75px;
+    height: auto;
+    color: var(--vinho);
+}
+
+#coracao {
+    width: 75px;
+    height: auto;
+    color: var(--vinho);
+}
+
+.divTituloMVV {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    padding: 5px;
+    background-color: var(--vinho);
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.tituloMVV {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .MVVDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .MVVdivs {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

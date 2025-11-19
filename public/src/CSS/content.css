@@ -1,0 +1,13 @@
+#content {
+    z-index: 0;
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: 5%;
+    width: 90%;
+    flex-grow: 1;
+    padding: 3rem;
+    background-color: var(--rosa-claro);
+    justify-content: center;
+    color: var(--vinho);
+}

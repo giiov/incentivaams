@@ -1,0 +1,29 @@
+/* Global CSS */
+:root {
+  --vinho: #800116;
+  --vinhozinho: #BB0221;
+  --rosa-claro: #ffecf1;
+  --rosa-clarinho: #fceff2;
+  --preto: #000000;
+  --branco: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  background-color: var(--rosa-claro);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.titulos {
+  font-weight: bold;
+  text-align: center;
+}

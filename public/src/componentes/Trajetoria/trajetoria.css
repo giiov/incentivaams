@@ -1,0 +1,65 @@
+/* Container principal */
+.trajetoria-container {
+    width: 80%;
+    height: 15rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Slider estilo barra */
+#anoSlider {
+    width: 100%;
+    accent-color: var(--vinho);
+    border: none;
+    margin-top: 20px;
+}
+
+#anoSlider:hover {
+    accent-color: rgb(188, 90, 90);
+    /* muda a cor da barra inteira ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Box que mostra a descrição do ano */
+.descricao {
+    background-color: var(--branco);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #ffe3e7;
+    border: 1px solid var(--cinza); /* Adiciona uma borda fina para definição */
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 55px; /* Move a caixa para baixo */
+    width: 250px;
+}
+
+
+/* Título da descrição */
+.descricao h3 {
+    margin-bottom: 5px;
+    color: var(--vinho);
+    font-size: 1.1rem;
+}
+
+/* Ícone do ano */
+.icone i {
+    font-size: 30px;
+    color: var(--vinho);
+    margin-top: 5px;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 767px) {
+    .icone i {
+        font-size: 40px;
+    }
+
+    .descricao {
+        width: 150px;
+    }
+
+    .trajetoria-container {
+        height: 23rem;
+    }
+}

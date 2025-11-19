@@ -1,0 +1,286 @@
+{
+"unidades": [
+    {
+      "id": 1,
+      "nome": "Etec Conselheiro Antônio Prado",
+      "endereco": "Av. Cônego Antônio Roccato, s/n - Jardim Santa Monica, Campinas - SP",
+      "cep": "13082-015"
+    },
+    {
+      "id": 2,
+      "nome": "Etec Cel. Fernando Febeliano da Costa",
+      "endereco": "R. do Rosário, 272 - Centro, Piracicaba - SP",
+      "cep": "13400-180"
+    },
+    {
+      "id": 3,
+      "nome": "Etec Bento Carlos Botelho do Amaral",
+      "endereco": "Rua Rui Barbosa, 1244 - Jardim Progresso, Guariba - SP",
+      "cep": "14842-042"
+    },
+    {
+      "id": 4,
+      "nome": "Etec Sales Gomes",
+      "endereco": "Praça Adelaide Barnsley Guedes, 01 - Centro, Tatuí - SP",
+      "cep": "18270-020"
+    },
+    {
+      "id": 5,
+      "nome": "Etec Martinho Di Ciero",
+      "endereco": "Avenida Barata Ribeiro, 410 - Vila Prudente de Moraes, Itu - SP",
+      "cep": "13306-220"
+    },
+    {
+      "id": 6,
+      "nome": "Etec de São Sebastião",
+      "endereco": "Rua Ítalo do Nascimento, 366 - Porto Grande, São Sebastião - SP",
+      "cep": "11608-248"
+    },
+    {
+      "id": 7,
+      "nome": "Etec João Gomes de Araújo",
+      "endereco": "Rua Prof. José Benedito Cursino, 75 - Jardim Boa Vista, Pindamonhangaba - SP",
+      "cep": "12401-090"
+    },
+    {
+      "id": 8,
+      "nome": "Etec Prof. Alfredo de Barros Santos",
+      "endereco": "Rua Alfonso Giannico, 350 - Pedregulho, Guaratinguetá - SP",
+      "cep": "12515-160"
+    },
+    {
+      "id": 9,
+      "nome": "Etec Dr. José Luiz Viana Coutinho",
+      "endereco": "Rua 13, 2.422 - Centro, Jales - SP (Prédio Urbano)",
+      "cep": "15700-034"
+    },
+    {
+      "id": 10,
+      "nome": "Etec José Martimiano da Silva",
+      "endereco": "Rua Tamandaré, 520 - Campos Elíseos, Ribeirão Preto - SP",
+      "cep": "14085-070"
+    },
+    {
+      "id": 11,
+      "nome": "Etec Bartolomeu Bueno da Silva - Anhanguera",
+      "endereco": "Av. Ten. Marques, s/n - Fazendinha, Santana de Parnaíba - SP",
+      "cep": "06529-001"
+    },
+    {
+      "id": 12,
+      "nome": "Etec Prof. Edson Galvão",
+      "endereco": "Rodovia Gladys Bernardes Minhoto, km 11 - Capão Alto, Itapetininga - SP",
+      "cep": "18211-265"
+    },
+    {
+      "id": 13,
+      "nome": "Etec Pedro Ferreira Alves",
+      "endereco": "Rua Ariovaldo Silveira Franco, 237 - Mirante, Mogi Mirim - SP",
+      "cep": "13801-005"
+    },
+    {
+      "id": 14,
+      "nome": "Etec Prof. Adolpho Arruda Mello",
+      "endereco": "R. Ribeiro de Barros, 1770 - Centro, Pres. Prudente - SP",
+      "cep": "19015-030"
+    },
+    {
+      "id": 15,
+      "nome": "Etec Sebrae (Campos Elíseos)",
+      "endereco": "Alameda Nothmann, 598 - Campos Elíseos, São Paulo - SP",
+      "cep": "01216-000"
+    },
+    {
+      "id": 16,
+      "nome": "Etec de Ferraz de Vasconcelos",
+      "endereco": "Rua Carlos de Carvalho, 200 - Vila Santa Margarida, Ferraz de Vasconcelos - SP",
+      "cep": "08545-160"
+    },
+    {
+      "id": 17,
+      "nome": "Etec Dr. Júlio Cardoso",
+      "endereco": " R. Gen. Carneiro, 1675 - Centro, Franca - SP",
+      "cep": "14400-500"
+    },
+    {
+      "id": 18,
+      "nome": "Etec Paulino Botelho",
+      "endereco": "R. Mal. Deodoro, 3183 - Centro, São Carlos - SP",
+      "cep": "13560-201"
+    },
+    {
+      "id": 19,
+      "nome": "Etec Francisco Garcia",
+      "endereco": "Avenida Monsenhor Demóstenes Paraná Brasil Pontes, 1507 - Jardim Lavinia, Mococa - SP",
+      "cep": "13736-260"
+    },
+    {
+      "id": 20,
+      "nome": "Etec Rosa Perrone Scavone",
+      "endereco": "R. João dos Santos Rangel, 66 - Vila Belem, Itatiba - SP",
+      "cep": "13256-312"
+    },
+    {
+      "id": 21,
+      "nome": "Etec João Maria Stevanatto",
+      "endereco": "Av. Paulo Lacerda Quartim Barbosa, 630 - Santa Bárbara, Itapira - SP",
+      "cep": "13977-175"
+    },
+    {
+      "id": 22,
+      "nome": "Etec Prefeito Alberto Feres",
+      "endereco": "Av. Senador César Lacerda de Vergueiro, 690 - Jardim Candida, Araras - SP",
+      "cep": "13603-013"
+    },
+    {
+      "id": 23,
+      "nome": "Etec Polivalente de Americana",
+      "endereco": "Av. Nossa Sra. de Fátima, 567 - Vila Israel, Americana - SP",
+      "cep": "13478-540"
+    },
+    {
+      "id": 24,
+      "nome": "Etec Dona Escolástica Rosa",
+      "endereco": "Av. Senador Feijó, 340/350 - Vila Matias, Santos - SP",
+      "cep": "11015-503"
+    },
+    {
+      "id": 25,
+      "nome": "Etec Eng. Herval Bellusci",
+      "endereco": " Estr. Seis, S/N - Boa Vista, Adamantina - SP",
+      "cep": "17800-000"
+    },
+    {
+      "id": 26,
+      "nome": "Etec Lauro Gomes",
+      "endereco": "Av. Pereira Barreto, 400 - Baeta Neves, São Bernardo do Campo - SP",
+      "cep": "09751-000"
+    },
+    {
+      "id": 27,
+      "nome": "Etec Tereza Aparecida Cardoso Nunes de Oliveira (Arthur Alvim)",
+      "endereco": " Av. Waldemar Tietz, 1477 - Artur Alvim, São Paulo - SP",
+      "cep": "03589-001"
+    },
+    {
+      "id": 28,
+      "nome": "Etec Fernando Prestes",
+      "endereco": "R. Natal, 340 - Jardim Paulistano, Sorocaba - SP",
+      "cep": "18040-810"
+    },
+    {
+      "id": 29,
+      "nome": "Etec de Bragança Paulista",
+      "endereco": " R. das Indústrias, 130 - Jardim Fraternidade, Bragança Paulista - SP",
+      "cep": "12926-674"
+    },
+    {
+      "id": 30,
+      "nome": "Etec Prof. Eudécio Luiz Vicente",
+      "endereco": " R. Líbero Badaró, 600 - Vila Jamil de Lima, Adamantina - SP",
+      "cep": "17800-000"
+    },
+    {
+      "id": 31,
+      "nome": "Etec Dr. Geraldo José Rodrigues Alckmin",
+      "endereco": "R. Octávio Rodrigues de Souza, 350 - Parque Paduan, Taubaté - SP",
+      "cep": "12070-790"
+    },
+    {
+      "id": 32,
+      "nome": "Etec Prof. Elias Miguel Junior",
+      "endereco": "Rua Irma Ferrarezi, s/n - Vila Votocel, Votorantim - SP",
+      "cep": "18115-350"
+    },
+    {
+      "id": 33,
+      "nome": "Etec de Registro",
+      "endereco": "R. Dr. Waldemar Lopes Ferraz, 158 - Vila Tupy, Registro - SP",
+      "cep": "11900-000"
+    },
+    {
+      "id": 34,
+      "nome": "Etec Prof. Dr. Antônio E. de Toledo",
+      "endereco": "Rodovia Raposo Tavares, km 561 - Pontilhão - Presidente Prudente/SP",
+      "cep": "19055-020"
+    },
+    {
+      "id": 35,
+      "nome": "Etec da Zona Leste (Cidade A. E. Carvalho)",
+      "endereco": " Av. Águia de Haia, 2633 - Cidade Antônio Estêvão de Carvalho, São Paulo - SP",
+      "cep": "03694-000"
+    },
+    {
+      "id": 36,
+      "nome": "Etec de Heliópolis - Arquiteto Ruy Ohtake",
+      "endereco": "Estr. das Lágrimas, 2461 - Ipiranga, São Paulo - SP",
+      "cep": "04244-000"
+    },
+    {
+      "id": 37,
+      "nome": "Etec Jorge Street",
+      "endereco": "R. Bel Aliance, 149 - Jardim Sao Caetano, São Caetano do Sul - SP",
+      "cep": "09581-420"
+    },
+    {
+      "id": 38,
+      "nome": "Etec de Carapicuíba",
+      "endereco": "Av. Francisco Pignatari, 650 - Vila Gustavo Correia, Carapicuíba - SP",
+      "cep": "06310-390"
+    },
+    {
+      "id": 39,
+      "nome": "Etec Jacinto Ferreira de Sá",
+      "endereco": "Av. Antônio Almeida Leite, 913 - Jardim Ouro Verde, Ourinhos - SP",
+      "cep": "19907-000"
+    },
+    {
+      "id": 40,
+      "nome": "Etec Monsenhor Antônio Magliano",
+      "endereco": "Praça Dr. Martinho Funchal de Barros, 277 - Williams, Garça - SP",
+      "cep": "17402-059"
+    },
+    {
+      "id": 41,
+      "nome": "Etec Dr. Adail Nunes da Silva",
+      "endereco": "R. Francisco Valzachi, 51 - Vila Rosa, Taquaritinga - SP",
+      "cep": "15900-000"
+    },
+    {
+      "id": 42,
+      "nome": "Etec João Baptista de Lima Figueiredo",
+      "endereco": "Avenida Dr. Américo Pereira Lima, s/nº – Jardim Lavínia– Mococa/SP",
+      "cep": "13736-260"
+    },
+    {
+      "id": 43,
+      "nome": "Etec Bento Quirino",
+      "endereco": "Av. Orosimbo Maia, 2600 - Cambuí, Campinas - SP",
+      "cep": "13024-045"
+    },
+    {
+      "id": 44,
+      "nome": "Etec de Lins",
+      "endereco": "R. São Pedro, 300 - Vila Perin, Lins - SP",
+      "cep": "16400-537"
+    },
+    {
+      "id": 45,
+      "nome": "Etec Rodrigues de Abreu",
+      "endereco": "R. Virgílio Malta, 12-70 - Centro, Bauru - SP",
+      "cep": "17015-220"
+    },
+    {
+      "id": 46,
+      "nome": "Etec Aristóteles Ferreira",
+      "endereco": "Av. Dr. Epitácio Pessoa, 466 - Aparecida, Santos - SP",
+      "cep": "11030-600"
+    },
+    {
+      "id": 47,
+      "nome": "Etec de Araçatuba",
+      "endereco": "Av. Prestes Maia, 1764 - Ipanema, Araçatuba - SP",
+      "cep": "16075-051"
+    }
+  ]
+}

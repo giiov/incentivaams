@@ -1,0 +1,20 @@
+.divsGeral {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: var(--vinho);
+    height: auto;
+    width: 100%;
+    background-color: var(--rosa-clarinho);
+    padding: 1.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.divsGeral:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}

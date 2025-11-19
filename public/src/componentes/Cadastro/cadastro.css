@@ -1,0 +1,91 @@
+.conteinerCadastro {
+    padding: 0 3rem 0 3rem;
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.divider {
+    background-color: #800115;
+    height: 1px;
+    border: none;
+    width: 10;
+}
+
+.input-cadastro[type=text],
+.input-cadastro[type=email],
+.input-cadastro[type=number],
+.input-cadastro[type=password] {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #800115;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.input-cadastro:focus {
+    border: 2px solid #800115;
+    outline: none;
+    box-shadow: 0 0 5px #ffbec8;
+}
+
+.input-cadastro::placeholder {
+    color: #800115;
+    opacity: 0.3;
+}
+
+.input-cadastro[type=radio] {
+    color: #800115;
+}
+
+.botao-form {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #800115;
+    border-radius: 15px;
+    background-color: #800115;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botao-form:hover {
+    background-color: rgb(185, 0, 28);
+    border-color: rgb(185, 0, 28);
+}
+
+.botoes {
+    margin-top: 10px;
+    width: 300px;
+}
+
+/*Posição dos ícones*/
+.icons {
+    position: relative;
+    width: 300px;
+}
+
+/*Estilo dos ícones*/
+.icons i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #800115;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.questions {
+    font-weight: bold;
+    color: #800115;
+}

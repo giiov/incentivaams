@@ -1,0 +1,9 @@
+#footer {
+    z-index: 0;
+    background-color: var(--vinho);
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+};

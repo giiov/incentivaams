@@ -1,0 +1,90 @@
+#sidebar {
+    position: fixed;
+    left: 1rem;
+    top: 7rem;
+    z-index: 1;
+    width: 60px;
+    height: min-content;
+    background-color: var(--vinho);
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--branco);
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+    transition: width .75s ease;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar:hover {
+    width: 200px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+#sidebar li {
+    padding: 0 1px;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sidebar li:hover {
+    background-color: var(--vinhozinho);
+}
+
+#sidebar .nav-link {
+    padding: .5rem 0;
+    width: 100%;
+    display: inline-flex;
+    column-gap: 1rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.item-txt {
+    padding-left: .5rem;
+    font-size: 15px;
+}
+
+.item-icon {
+    width: 15px;
+}
+
+.attribute {
+    position: absolute;
+    bottom: 10px;
+}
+
+#info-icon {
+    padding-left: 2px;
+}
+
+#calendar-icon {
+    padding-left: 3px;
+}
+
+#phone-icon {
+    padding-left: 2px;
+}
+
+@media (max-width: 767px) {
+
+    #sidebar {
+        left: 0;
+        width: 50px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    #sidebar ul {
+       position: relative;
+       right: 5px;
+    }
+
+}

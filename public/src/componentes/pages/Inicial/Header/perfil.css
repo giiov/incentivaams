@@ -1,0 +1,27 @@
+#perfil {
+    background-color: var(--vinho);
+    border: 1px solid var(--branco);
+    padding: 15px;
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil i {
+    color: var(--branco);
+}
+
+#perfil:hover {
+    background-color: var(--branco);
+    cursor: pointer;
+}
+
+#perfil:hover i {
+    color: var(--vinho);
+}
