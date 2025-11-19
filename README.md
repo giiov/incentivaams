@@ -1,26 +1,38 @@
-# 🚀 Site Projeto Incentiva AMS 
-Este repositório é dedicado ao site oficial do Projeto Incentiva AMS. Nossa iniciativa é um esforço de orientação criado por alunos para futuros alunos, com o objetivo de desmistificar e apresentar o real diferencial do curso de Articulado Médio Superior (AMS) da Etec.
+## 🚀 Projeto Incentiva AMS
+Este repositório contém o código do site oficial do **Projeto Incentiva AMS**, uma iniciativa criada por alunos para orientar e motivar futuros estudantes sobre o curso **AMS (Articulado Médio Superior)** da ETEC.
 
-## 🎯Objetivo Central do Projeto
-O principal foco do "Incentiva AMS" é apoiar e motivar futuros estudantes da Etec. Buscamos compartilhar nossa experiência de primeiro e segundo ano, fornecendo informações claras sobre:
- * O que esperar do curso AMS (Ensino Médio + Técnico + Superior).
- - Os desafios e as grandes oportunidades que ele oferece.
- + Por que o esforço para conquistar uma vaga no curso AMS é recompensado.
+O site reúne informações importantes sobre o curso, conteúdos de orientação e recursos interativos desenvolvidos com diversas APIs.
 
-## 📢Por que Este Projeto é Necessário?
-Ao longo do ano, percebemos que muitos candidatos e até mesmo alunos demonstram confusão em entender o valor e o diferencial do nosso curso.
-#### Com a expectativa de aumento de vagas para o AMS no próximo ano, acreditamos que esta iniciativa é vital para:
-* Evitar a Desmotivação: Garantir que os interessados tomem uma decisão informada, reduzindo a evasão e o desinteresse.
-* Gerar Maior Interesse: Destacar as vantagens exclusivas do AMS e atrair estudantes mais engajados e alinhados com o curso.
+## 📦 Conteinerização com Docker
+Como parte dos requisitos da disciplina de CNW I, este projeto foi configurado para rodar em um ambiente Docker.
+A conteinerização garante que o site possa rodar em qualquer máquina de forma padronizada — mas o Docker está incluído aqui essencialmente para atender à exigência acadêmica.
 
-## 🛠️Métodos e Estratégias de Divulgação (Onde o Site se Encaixa)
-O site é o hub central que apoia e concentra todas as nossas ações de divulgação:
-* Conteúdo em Mídias Sociais: O site hospeda informações complementares e links diretos para nossas contas, onde compartilhamos a experiência do AMS e fazemos explicações detalhadas sobre o curso.
-* Apoio a Palestras: Serve como material de referência para visitas a escolas da região e palestras focadas em alunos do Ensino Fundamental (nono ano).
+## ✔️ Dockerfile
+O repositório possui um arquivo **Dockerfile** que faz:
 
-## ✨Tecnologias do Site
-O site é a base digital do projeto e foi desenvolvido com foco em performance e simplicidade:
-* HTML, CSS e JavaScript: Utilizados para construir uma interface leve, rápida e totalmente responsiva.
-* PHP e MySQL: Utilizados para a criação e comunicação do banco de dados com o cadastro/login.
-* APIs: Utilizadas para criar funcionalidades que auxiliam o usuário na preparação para o vestibulinho Etec. São elas: Gemini, Maps e Calendário — Todas do Google.
+- Build de um ambiente PHP + Apache
+- Cópia dos arquivos do projeto para o container
+- Instalação das dependências via **Composer**
+
+## 🛠️ Como Rodar o Projeto
+
+# 1️⃣ Baixar a imagem
+fazer o pull da imagem oficial:
+docker pull gicipulo/incentivams:v1
+
+# 2️⃣ Rodar o container
+Após o download, execute:
+docker run -d -p 8080:80 gicipulo/incentivams:v1
+
+# 3️⃣ Acessar o site
+Abra no navegador:
+http://localhost:8080
+
+
+## ✨Tecnologias Utilizadas
+- **HTML, CSS e JavaScript**
+- **APIs externas (Google Gemini, Google Maps, Google Calendar)**
+- **PHP + MySQL** para partes do backend  
+- **Composer** para gerenciamento de dependências  
+- **Docker** para conteinerização (exigência da disciplina)
 

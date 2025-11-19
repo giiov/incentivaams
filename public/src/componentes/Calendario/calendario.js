@@ -24,7 +24,8 @@ function updateMonthYear() {
     $year.html($calendario.getYear());
 }
 
-const url = `https://www.googleapis.com/calendar/v3/calendars/incentivams@gmail.com/events?key=AIzaSyD8cQUtzErJUZm7ulR5Ms0Fc4v4SHQVEjA`;
+const API_KEY = "" ; //tirada por motivo de segurança
+const url = `https://www.googleapis.com/calendar/v3/calendars/incentivams@gmail.com/events?key=${API_KEY}`;
 
 fetch(url)
     .then(resposta => resposta.json())
