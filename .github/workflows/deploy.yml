@@ -26,5 +26,5 @@ jobs:
           port: 21
           local-dir: ./public/
           server-dir: /htdocs/
-          dry-run: true
+          dry-run: false
           dangerous-clean-slate: false
